@@ -1,0 +1,1 @@
+db.stud_mst.deleteOne({ stud_name: "XYZ" })
