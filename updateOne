@@ -1,0 +1,4 @@
+db.stud_mst.updateOne(
+  { stud_id: 5 },
+  { $set: { stud_email: "eve_updated@example.com", stud_name: "Eve Updated" } }
+)
