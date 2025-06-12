@@ -1,0 +1,56 @@
+db.stud_mst.insertMany([
+  {
+    stud_id: 2,
+    stud_name: "Bob",
+    stud_email: "bob@example.com",
+    stud_birthdate: new Date("1999-08-14")
+  },
+  {
+    stud_id: 3,
+    stud_name: "Charlie",
+    stud_email: "charlie@example.com",
+    stud_birthdate: new Date("2001-02-22")
+  },
+  {
+    stud_id: 4,
+    stud_name: "David",
+    stud_email: "david@example.com",
+    stud_birthdate: new Date("2002-07-30")
+  },
+  {
+    stud_id: 5,
+    stud_name: "Eve",
+    stud_email: "eve@example.com",
+    stud_birthdate: new Date("2000-10-11")
+  },
+  {
+    stud_id: 6,
+    stud_name: "Frank",
+    stud_email: "frank@example.com",
+    stud_birthdate: new Date("2003-03-01")
+  },
+  {
+    stud_id: 7,
+    stud_name: "Grace",
+    stud_email: "grace@example.com",
+    stud_birthdate: new Date("2001-12-12")
+  },
+  {
+    stud_id: 8,
+    stud_name: "Heidi",
+    stud_email: "heidi@example.com",
+    stud_birthdate: new Date("2004-04-04")
+  },
+  {
+    stud_id: 9,
+    stud_name: "Ivan",
+    stud_email: "ivan@example.com",
+    stud_birthdate: new Date("1998-06-06")
+  },
+  {
+    stud_id: 10,
+    stud_name: "XYZ",
+    stud_email: "xyz@example.com",
+    stud_birthdate: new Date("1995-09-09")
+  }
+])
