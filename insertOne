@@ -1,0 +1,6 @@
+db.stud_mst.insertOne({
+  stud_id: 1,
+  stud_name: "Alice",
+  stud_email: "alice@example.com",
+  stud_birthdate: new Date("2000-05-10")
+})
